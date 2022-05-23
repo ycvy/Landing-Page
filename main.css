@@ -49,8 +49,10 @@ li {
 .container-hero {
     margin-top: 92px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    max-height: 350px;
+    height: 340px;
 }
 .myimage, .top-page p, button {
     font-size: 18px;
@@ -58,6 +60,24 @@ li {
 
 }
 
+.container-hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    flex-wrap: wrap;
+    height: 220px;
+    width: auto;
+    background-color: #747678;
+}
+
+.placeholder p {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 110px;
+}
 
 button {
     background-color: #3882F6;
