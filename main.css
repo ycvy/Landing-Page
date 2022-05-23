@@ -1,4 +1,7 @@
-.container {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container-header {
     display: flex;
     justify-content: flex-end;
     gap: 16px;
@@ -7,6 +10,7 @@
 ul {
     list-style: none;
     margin: 0;
+    padding: 0;
 
 }
 li {
@@ -20,7 +24,7 @@ li {
     color: #F9FAF8;
     margin-right: auto;
     font-weight: 700;
-    padding-left: 0px;
+
 }
 
 .top-page {
@@ -33,17 +37,32 @@ li {
 .top-page h1 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
-    margin-top: 92px;
+    font-weight: extra-bold;
+    width:350px;
+    margin: 0;
 }
 
-.top-page p, button {
-    font-size: 18px;
-    color: #E5E7EB; 
+.top-page p {
+    width:420px;
+    margin: 0;
 }
+.container-hero {
+    margin-top: 92px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.myimage, .top-page p, button {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
 
 button {
     background-color: #3882F6;
     padding: 8px 16px;
     border-radius: 12px;
+    width: 140px;
+    margin-top: 8px;
 }
