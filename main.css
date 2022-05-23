@@ -107,6 +107,13 @@ h2 {
 .imgages-subtext p {
     text-align: center;
 }
+
+.quote p{
+    display: flex;
+    margin:auto;
+    width: 600px;
+}
+
 button {
     background-color: #3882F6;
     padding: 8px 16px;
