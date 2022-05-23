@@ -79,6 +79,34 @@ li {
     margin-top: 110px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
+}
+.images-subtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.images-subtext div {
+    width: 150px;
+    
+}
+
+.images-subtext img {
+    width:150px;
+    height: 150px;
+    border: 2px solid rgb(57, 84, 204);
+    border-radius: 12px;
+}
+
+.imgages-subtext p {
+    text-align: center;
+}
 button {
     background-color: #3882F6;
     padding: 8px 16px;
