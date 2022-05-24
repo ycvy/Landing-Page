@@ -37,7 +37,7 @@ li {
 .top-page h1 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: extra-bold;
+    font-weight:900;
     width:350px;
     margin: 0;
 }
@@ -165,13 +165,24 @@ h3 {
     margin: 0;
     padding: 0;
     font-size: 30px;
+    font-weight: bolder;
 }
 
 .action p {
     margin: 0;
     font-size: 20px;
+    color: #E5E7EB;
 }
 .action button {
-    border: 2px solid white;
+    border: 2px solid #E5E7EB;
     
+}
+
+footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
 }
