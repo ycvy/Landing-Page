@@ -80,6 +80,8 @@ li {
 }
 
 h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
     color: #1F2937;
@@ -108,10 +110,33 @@ h2 {
     text-align: center;
 }
 
-.quote p{
+.quote {
     display: flex;
-    margin:auto;
-    width: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    padding:100px;
+}
+
+.quote-text {
+    flex: 1;
+    width: 790px;
+    font-size: 36px; 
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    margin-bottom: 0;
+}
+
+.quote-origin {
+    margin-top: 0;
+    margin-left: 500px;
+    font-weight:bolder;
+    font-size: 30px;
 }
 
 button {
